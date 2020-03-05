@@ -12,6 +12,16 @@
         style="@style/nameStyle"
         android:text="@string/name" />
 
+    <EditText
+        android:id="@+id/nick_name_edit"
+        style="@style/nameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/what_is_your_nickname"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
     <ImageView
         android:id="@+id/star_image"
         android:layout_width="match_parent"
